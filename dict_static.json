@@ -1,0 +1,173 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "item": "W ciapkach",
+            "itemDefinition": "W cudzyslowie",
+            "examples":
+                "W pojedynczych ciapkach: \", W podwójnych ciapkach: \"\", Czy tu muszą być ciapki?",
+            "tags": "ciapki",
+            "accepted": true
+        },
+        {
+            "id": 2,
+            "item": "Wysublimowany",
+            "itemDefinition":
+                "Gdy używasz elementu jQuery. Ogólnie gdy używasz jakiegoś elementu w sugar code.",
+            "accepted": true
+        },
+        {
+            "id": 3,
+            "item": "Chamski",
+            "itemDefinition":
+                "Gdy element jQuery przekształci się w zwykły element JS.",
+            "accepted": true
+        },
+        {
+            "id": 4,
+            "item": "Koszerny",
+            "itemDefinition":
+                "Gdy używasz elementu jQuery. Ogólnie gdy używasz jakiegoś elementu w sugar code.",
+            "accepted": true
+        },
+        {
+            "id": 5,
+            "item": "J3bn@c ifka",
+            "itemDefinition": "Gdy chcesz użyć instrukcji warunkowej.",
+            "tags": "if",
+            "examples": "Tu trzeba j3bn@c ifka.",
+            "accepted": true
+        },
+        {
+            "id": 6,
+            "item": "Dzwonić do jsona",
+            "itemDefinition": "Gdy chcesz użyć bazy danych w formacie json.",
+            "tags": "json",
+            "accepted": true
+        },
+        {
+            "id": 7,
+            "item": "Json nie odbiera",
+            "itemDefinition":
+                "Gdy próbujesz ściągnąć dane w formacie json, ale ci nie wychodzi.",
+            "tags": "json",
+            "accepted": true
+        },
+        {
+            "id": 8,
+            "item": "Myć podlogę ajaxem",
+            "itemDefinition": "Gdy chcesz skorzystać z metody Ajax.",
+            "tags": "ajax",
+            "accepted": true
+        },
+        {
+            "id": 9,
+            "item": "Eventy myszowe",
+            "itemDefinition": "Zdarzenia związane z obsługą myszy.",
+            "tags": "event",
+            "accepted": true
+        },
+        {
+            "id": 10,
+            "item": "W stringach",
+            "itemDefinition": "Gdy musisz użyć ciapek, aby stworzyć string.",
+            "examples":
+                "Truskawka w stringach: \"truskawka\", Niedźwiedź w stringach: \"niedźwiedź\"",
+            "tags": "string, stringi",
+            "accepted": true
+        },
+        {
+            "id": 11,
+            "item": "Nadążać za Senseiem",
+            "itemDefinition": "Rozumieć, co mówi wykładowca.",
+            "tags": "Sensei",
+            "accepted": true
+        },
+        {
+            "id": 12,
+            "item": "Nawrócić się na programowanie",
+            "itemDefinition": "Zacząć się uczyć programowania.",
+            "accepted": true
+        },
+        {
+            "id": 13,
+            "item": "W pyćkach",
+            "itemDefinition": "W cudzysłowie, synonim ciapek",
+            "examples":
+                "W pojedynczych pyćkach: \", W podwójnych pyćkach: \"\"",
+            "tags": "pyciek, pyćki",
+            "accepted": true
+        },
+        {
+            "id": 14,
+            "item": "Znak zachęty",
+            "itemDefinition":
+                "\"$\" w terminalu. To znaczy, że akurat nic nie zepsuliście, terminal działa i możecie pisać nową komendę.",
+            "examples": "Nie ma znaku zachęty.",
+            "accepted": true
+        },
+        {
+            "id": 15,
+            "item": "Spacja po podłodze",
+            "itemDefinition": "Znak \"_\", podkreślnik, inaczej \"podłoga\"",
+            "tags": "podłoga",
+            "accepted": true
+        },
+        {
+            "id": 16,
+            "item": "Podłoga",
+            "itemDefinition":
+                "Znak \"_\", podkreślnik, inaczej \"Spacja po podłodze\"",
+            "tags": "podłoga",
+            "accepted": true
+        },
+        {
+            "id": 17,
+            "item": "Zamykacz",
+            "itemDefinition": "Znak \">\"",
+            "examples": "Nie ma zamykacza - brakuje \">\"",
+            "accepted": true
+        },
+        {
+            "id": 18,
+            "item": "Otwieracz",
+            "itemDefinition": "Znak \"<\"",
+            "examples": "Nie ma otwieracza - brakuje \"<\"",
+            "accepted": true
+        },
+        {
+            "id": 19,
+            "item": "Pyciek",
+            "itemDefinition":
+                "Coś małego, np. końcówka usb od myszki bezprzewodowej",
+            "accepted": true
+        },
+        {
+            "id": 20,
+            "item": "Ifek",
+            "itemDefinition": "Instrukcja warunkowa \"if\"",
+            "tags": "if, ifek",
+            "accepted": true
+        },
+        {
+            "id": 21,
+            "item": "W ptaszkach",
+            "itemDefinition":
+                "W cudzysłowie. Synonim ciapek. No ale umówmy się, lepiej powiedzieć \"w ciapkach\", czyż nie? :)",
+            "accepted": true
+        },
+        {
+            "id": 22,
+            "item": "Jaknajade",
+            "itemDefinition":
+                "Przyszła aplikacja, która mówi, co ma się dziać na hoverze w css. I jak się przesiadać między hoverami.",
+            "accepted": true
+        },
+        {
+            "id": 23,
+            "item": "Nie jestem zaakceptowany",
+            "itemDefinition": "Nie jestem zaakceptowany",
+            "accepted": false
+        }
+    ]
+}

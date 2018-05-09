@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "w-ciapkach",
+    "w-ciapkach-staging": "w-ciapkach"
+  }
+}

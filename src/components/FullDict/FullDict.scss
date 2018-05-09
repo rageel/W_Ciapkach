@@ -1,0 +1,39 @@
+.item {
+    font-size: 15px;
+    width: 30%;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.item_full {
+    background-color: rgba(255, 163, 30, 0.5);
+}
+.item_def {
+    width: 80%;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 6px;
+}
+.item_def_full {
+    background-color: rgba(25, 161, 2555, 0.5);
+}
+.item_examples {
+    font-style: italic;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.item_tags {
+    text-decoration: underline;
+    font-size: 12px;
+}
+.full_dict {
+    width: 80%;
+    margin: 0 auto;
+}
