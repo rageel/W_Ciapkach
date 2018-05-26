@@ -72,16 +72,16 @@ export default class App extends Component {
                     <NavLink
                         className="main-nav__link"
                         activeStyle={activeLinkStyle}
-                        to="/generaterandom"
+                        to="/fulldict"
                     >
-                        Generate Random
+                        Full Dictionary
                     </NavLink>
                     <NavLink
                         className="main-nav__link"
                         activeStyle={activeLinkStyle}
-                        to="/fulldict"
+                        to="/generaterandom"
                     >
-                        Full Dictionary
+                        Generate Random
                     </NavLink>
                     <NavLink
                         className="main-nav__link"

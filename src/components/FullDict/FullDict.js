@@ -41,7 +41,7 @@ export default class FullDict extends Component {
                                 {item.examples}
                             </div>
                             <div className="item_tags">
-                                <span>tagi: </span>
+                                <span>Tagi: </span>
                                 {item.tags}
                             </div>
                         </div>

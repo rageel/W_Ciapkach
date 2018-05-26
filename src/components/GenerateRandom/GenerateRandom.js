@@ -58,7 +58,7 @@ export default class GenerateRandom extends Component {
                             {this.state.itemRandom.examples}
                         </div>
                         <div className="item_tags">
-                            <span>tagi: </span>
+                            <span>Tagi: </span>
                             {this.state.itemRandom.tags}
                         </div>
                     </div>

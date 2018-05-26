@@ -61,7 +61,7 @@ export default class AddItem extends Component {
                     tags: this.state.tagsAdded,
                     accepted: false
                 });
-            alert("Brawo! Item dodał się do Ciapek i czeka na ciapkceptację");
+            alert("Brawo! Item dodał się do Ciapek i czeka na apkceptację");
         } else {
             alert("Zaloguj się, aby dodać item.");
         }
@@ -102,7 +102,7 @@ export default class AddItem extends Component {
                     value={this.state.tagsAdded}
                     onChange={this.handleAddTags}
                 />
-                <button type="submit" className="button form_item">
+                <button type="submit" className="button">
                     Dodaj item
                 </button>
             </form>

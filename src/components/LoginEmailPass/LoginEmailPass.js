@@ -70,7 +70,9 @@ export default class LoginEmailPass extends Component {
         return (
             <div>
                 <div className="form">
-                    <h4>Zaloguj się przy pomocy emaila i hasła:</h4>
+                    <p className="login">
+                        Zaloguj się przy pomocy emaila i hasła:
+                    </p>
                     <div>
                         <input
                             className="input form_item"

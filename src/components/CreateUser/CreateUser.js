@@ -46,7 +46,7 @@ export default class CreateUser extends Component {
     render() {
         return (
             <div>
-                <h4>Zarejestruj się:</h4>
+                <p className="login">Zarejestruj się:</p>
                 <div className="form">
                     <div>
                         <input

@@ -13,7 +13,9 @@ export default class Header extends Component {
         return (
             <div className="header">
                 <h1 className="app-title">W ciapkach</h1>
-                <h5>Słownik slangu programistycznego</h5>
+                <h4 className="app-subtitle">
+                    Słownik slangu programistycznego
+                </h4>
             </div>
         );
     }

@@ -53,7 +53,7 @@ export default class Login extends Component {
     render() {
         return (
             <div>
-                <h4>Zaloguj się kontem Google:</h4>
+                <p className="login">Zaloguj się kontem Google:</p>
                 {this.state.user ? (
                     <div>
                         <div className="logged_in">
