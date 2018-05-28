@@ -13,7 +13,7 @@ export default class MainContent extends Component {
 
     render() {
         return (
-            <main>
+            <main className="main">
                 <div className="main_middle">
                     <div className="question left">
                         <div className="question_text">
@@ -21,7 +21,7 @@ export default class MainContent extends Component {
                             ale nie możesz znaleźć numeru?
                         </div>
                     </div>
-                    <div className="question photo middle">
+                    <div className="question middle">
                         <div className="question_text">
                             A może kazał Ci myć podłogę ajaxem, ale przecież w
                             biurze jest wykładzina?
