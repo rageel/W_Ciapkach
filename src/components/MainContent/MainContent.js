@@ -15,23 +15,25 @@ export default class MainContent extends Component {
         return (
             <main className="main">
                 <div className="main_middle">
-                    <div className="question left">
-                        <div className="question_text">
-                            Martwisz się, bo szef kazał Ci dzwonić do Jasona,
-                            ale nie możesz znaleźć numeru?
+                    <div className="row">
+                        <div className="col question left">
+                            <div className="question_text">
+                                Martwisz się, bo szef kazał Ci dzwonić do
+                                Jasona, ale nie możesz znaleźć numeru?
+                            </div>
                         </div>
-                    </div>
-                    <div className="question middle">
-                        <div className="question_text">
-                            A może kazał Ci myć podłogę ajaxem, ale przecież w
-                            biurze jest wykładzina?
+                        <div className="col question middle">
+                            <div className="question_text">
+                                A może kazał Ci myć podłogę ajaxem, ale przecież
+                                w biurze jest wykładzina?
+                            </div>
                         </div>
-                    </div>
-                    <div className="question right">
-                        <div className="question_text">
-                            Powiedziałeś wszystkim, że musisz sprawdzić w
-                            Jaknajade ale nikt się nie śmieje? (Pewnie nie
-                            zrozumieli.)
+                        <div className="col question right">
+                            <div className="question_text">
+                                Powiedziałeś wszystkim, że musisz sprawdzić w
+                                Jaknajade ale nikt się nie śmieje? (Pewnie nie
+                                zrozumieli.)
+                            </div>
                         </div>
                     </div>
                 </div>

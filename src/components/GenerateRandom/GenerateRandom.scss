@@ -9,9 +9,17 @@
 .generate_random {
     border: 2px solid #79ccb7;
     width: 30%;
-    height: 40px;
+    height: 45px;
     font-weight: bold;
     margin: 10px;
     border-radius: 10px;
     background-color: #ededed;
+    @media (max-width: 1000px) {
+        width: 45%;
+        height: 45px;
+    }
+    @media (max-width: 600px) {
+        width: 60%;
+        height: 50px;
+    }
 }
