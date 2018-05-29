@@ -102,7 +102,7 @@ export default class AddItem extends Component {
                     value={this.state.tagsAdded}
                     onChange={this.handleAddTags}
                 />
-                <button type="submit" className="button">
+                <button type="submit" className="button button_bottom">
                     Dodaj item
                 </button>
             </form>

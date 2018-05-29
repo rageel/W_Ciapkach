@@ -13,6 +13,14 @@
     height: 30px;
     width: 30%;
     text-align: center;
+    @media (max-width: 800px) {
+        width: 40%;
+        height: 40px;
+    }
+    @media (max-width: 600px) {
+        width: 60%;
+        height: 45px;
+    }
 }
 
 .button {
@@ -23,4 +31,16 @@
     margin: 10px;
     border-radius: 10px;
     background-color: #ededed;
+    @media (max-width: 800px) {
+        width: 40%;
+        height: 40px;
+    }
+    @media (max-width: 600px) {
+        width: 60%;
+        height: 45px;
+    }
+}
+
+.button_bottom {
+    margin-bottom: 40px;
 }

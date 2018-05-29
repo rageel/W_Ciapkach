@@ -18,6 +18,10 @@
         width: 45%;
         height: 45px;
     }
+    @media (max-width: 800px) {
+        width: 40%;
+        height: 42px;
+    }
     @media (max-width: 600px) {
         width: 60%;
         height: 50px;
