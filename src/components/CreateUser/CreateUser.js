@@ -65,7 +65,7 @@ export default class CreateUser extends Component {
                         />
                         <input
                             onClick={this.onSubmit}
-                            className="button input form_item"
+                            className="button submit input form_item"
                             type="submit"
                             value="Zarejestruj się"
                         />

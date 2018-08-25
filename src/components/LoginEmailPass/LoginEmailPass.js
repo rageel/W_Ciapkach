@@ -91,14 +91,14 @@ export default class LoginEmailPass extends Component {
                         {this.state.user ? (
                             <input
                                 onClick={this.onLogout}
-                                className="button button_bottom input form_item"
+                                className="button submit button_bottom input form_item"
                                 type="submit"
                                 value="Wyloguj się"
                             />
                         ) : (
                             <input
                                 onClick={this.onLogin}
-                                className="button button_bottom input form_item"
+                                className="button submit button_bottom input form_item"
                                 type="submit"
                                 value="Zaloguj się"
                             />

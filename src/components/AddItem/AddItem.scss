@@ -11,13 +11,13 @@
 .input {
     border: 2px solid #89c7b7;
     height: 30px;
-    width: 30%;
+    width: 60%;
     text-align: center;
-    @media (max-width: 800px) {
+    @media (max-width: 600px) {
         width: 40%;
         height: 40px;
     }
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
         width: 60%;
         height: 45px;
     }
@@ -31,11 +31,11 @@
     margin: 10px;
     border-radius: 10px;
     background-color: #ededed;
-    @media (max-width: 800px) {
+    @media (max-width: 600px) {
         width: 40%;
         height: 40px;
     }
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
         width: 60%;
         height: 45px;
     }

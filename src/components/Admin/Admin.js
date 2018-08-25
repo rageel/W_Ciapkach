@@ -59,7 +59,7 @@ export default class Admin extends Component {
                             id => {
                                 var item = this.state.item_full_notAccepted[id];
                                 return (
-                                    <div key={id}>
+                                    <div className="admin_container" key={id}>
                                         <div className="item item_full">
                                             {item.item}
                                         </div>
