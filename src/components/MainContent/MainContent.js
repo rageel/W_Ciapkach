@@ -21,23 +21,23 @@ export default class MainContent extends Component {
                             <div className="question_text">
                                 Martwisz się, bo szef kazał Ci dzwonić do
                                 Jasona, ale nie możesz znaleźć numeru?
+                                <div className="photo_left"></div>
                             </div>
-                            <div class="photo_left"></div>
                         </div>
                         <div className="col question middle">
                             <div className="question_text">
                                 A może kazał Ci myć podłogę ajaxem, ale przecież
                                 w biurze jest wykładzina?
+                                <div className="photo_middle"></div>
                             </div>
-                            <div class="photo_middle"></div>
                         </div>
                         <div className="col question right">
                             <div className="question_text">
                                 Powiedziałeś wszystkim, że musisz sprawdzić w
                                 Jaknajade ale nikt się nie śmieje? (Pewnie nie
                                 zrozumieli.)
+                                <div className="photo_right"></div>
                             </div>
-                            <div class="photo_right"></div>
                         </div>
                     </div>
                 </div>
