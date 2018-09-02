@@ -11,7 +11,7 @@ export default class Footer extends Component {
         return (
             <footer className="main_footer">
                 <p className="copyright">&copy; rage el 2018</p>
-                <p className="powered_by">Powered by Firebase</p>
+                <p className="powered_by" lang="en">Powered by Firebase</p>
             </footer>
         );
     }

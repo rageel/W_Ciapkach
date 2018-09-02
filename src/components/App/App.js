@@ -69,14 +69,14 @@ export default class App extends Component {
                     >
                         Strona główna
                     </NavLink>
-                    <NavLink
+                    <NavLink lang="en"
                         className="main-nav__link"
                         activeStyle={activeLinkStyle}
                         to="/fulldict"
                     >
                         Full Dictionary
                     </NavLink>
-                    <NavLink
+                    <NavLink lang="en"
                         className="main-nav__link"
                         activeStyle={activeLinkStyle}
                         to="/generaterandom"

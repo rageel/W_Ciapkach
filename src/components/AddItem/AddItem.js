@@ -61,7 +61,7 @@ export default class AddItem extends Component {
                     tags: this.state.tagsAdded,
                     accepted: false
                 });
-            alert("Brawo! Item dodał się do Ciapek i czeka na apkceptację");
+            alert("Brawo! Item dodał się do Ciapek i czeka na akceptację");
         } else {
             alert("Zaloguj się, aby dodać item.");
         }
@@ -75,6 +75,7 @@ export default class AddItem extends Component {
                     type="text"
                     name="add_item"
                     placeholder="Dodaj item"
+                    required
                     value={this.state.itemAdded}
                     onChange={this.handleAddItem}
                 />
@@ -83,6 +84,7 @@ export default class AddItem extends Component {
                     type="text"
                     name="add_definition"
                     placeholder="Dodaj definicję"
+                    required
                     value={this.state.defAdded}
                     onChange={this.handleAddDef}
                 />
