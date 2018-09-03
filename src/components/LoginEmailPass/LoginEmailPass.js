@@ -79,6 +79,7 @@ export default class LoginEmailPass extends Component {
                             type="email"
                             name="login_email"
                             placeholder="E-mail"
+                            aria-label="Podaj email"
                             onChange={this.takeEmail}
                         />
                         <input
@@ -86,10 +87,11 @@ export default class LoginEmailPass extends Component {
                             type="password"
                             name="password"
                             placeholder="Hasło"
+                            aria-label="Podaj hasło"
                             onChange={this.takePass}
                         />
                         {this.state.user ? (
-                            <input
+                            <button
                                 onClick={this.onLogout}
                                 className="button submit button_bottom input form_item"
                                 type="submit"

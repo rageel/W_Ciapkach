@@ -70,21 +70,23 @@ export default class AddItem extends Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit} className="form">
-                <input
-                    className="input form_item"
-                    type="text"
-                    name="add_item"
-                    placeholder="Dodaj item"
-                    required
-                    value={this.state.itemAdded}
-                    onChange={this.handleAddItem}
-                />
+                    <input
+                        className="input form_item"
+                        type="text"
+                        name="add_item"
+                        placeholder="Dodaj item"
+                        required
+                        aria-label="Dodaj item"
+                        value={this.state.itemAdded}
+                        onChange={this.handleAddItem}
+                    />
                 <input
                     className="input form_item"
                     type="text"
                     name="add_definition"
                     placeholder="Dodaj definicję"
                     required
+                    aria-label="Dodaj item"
                     value={this.state.defAdded}
                     onChange={this.handleAddDef}
                 />
@@ -93,6 +95,7 @@ export default class AddItem extends Component {
                     type="text"
                     name="add_examples"
                     placeholder="Dodaj przykład(y)"
+                    aria-label="Dodaj przykłady"
                     value={this.state.examplesAdded}
                     onChange={this.handleAddExamples}
                 />
@@ -101,6 +104,7 @@ export default class AddItem extends Component {
                     type="text"
                     name="add_tags"
                     placeholder="Dodaj tag(i)"
+                    aria-label="Dodaj tagi"
                     value={this.state.tagsAdded}
                     onChange={this.handleAddTags}
                 />

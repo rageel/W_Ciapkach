@@ -46,14 +46,15 @@ export default class CreateUser extends Component {
     render() {
         return (
             <div>
-                <p className="login">Zarejestruj się:</p>
                 <div className="form">
+                    <p className="login">Zarejestruj się:</p>
                     <div>
                         <input
                             className="input form_item"
                             type="email"
                             name="login_email"
                             placeholder="E-mail"
+                            aria-label="Podaj email"
                             onChange={this.takeNewEmail}
                         />
                         <input
@@ -61,17 +62,19 @@ export default class CreateUser extends Component {
                             type="password"
                             name="password"
                             placeholder="Hasło"
+                            aria-label="Podaj hasło"
                             onChange={this.takeNewPass}
                         />
                         <input
                             onClick={this.onSubmit}
                             className="button submit input form_item"
+                            aria-label="Zarejestruj się"
                             type="submit"
                             value="Zarejestruj się"
                         />
+                        <div>{this.state.error}</div>
                     </div>
                 </div>
-                <div>{this.state.error}</div>
             </div>
         );
     }
